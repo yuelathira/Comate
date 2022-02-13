@@ -1,0 +1,51 @@
+.box {
+  margin-top: 100px;
+}
+.content {
+  width: 30%;
+  background-color: aliceblue;
+  border-style: groove;
+  border-color: rgb(170, 196, 219);
+  border-radius: 10px;
+}
+header {
+  padding: 40px;
+}
+input {
+  margin: 10px;
+  padding: 10px;
+  width: 70%;
+  border: none;
+  border-bottom: 1.5px solid;
+  background-color: aliceblue;
+}
+input:focus {
+  outline: none;
+  border-image: linear-gradient(to right, #1dfdfa, #f04ec1);
+  border-image-slice: 1;
+}
+input:focus::placeholder {
+  color: transparent;
+}
+#signin {
+  border: none;
+  color: white;
+  font-size: 15px;
+  border-radius: 20px;
+  margin-top: 30px;
+  background: linear-gradient(to right, #1dfdfa, #f04ec1);
+}
+#signin:hover {
+  background-color: blue;
+}
+#remember {
+  margin-left: -35%;
+}
+img {
+  width: 15%;
+  height: 15%;
+}
+footer {
+  margin-top: 50px;
+  padding-bottom: 20px;
+}

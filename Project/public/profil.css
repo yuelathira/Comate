@@ -1,0 +1,178 @@
+.container {
+  display: flex;
+}
+.navigasi {
+  flex: 0.5;
+  border: 1px solid;
+}
+.main {
+  flex: 1.5;
+  border: 1px solid;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+#anonym {
+  color: #f99d1c;
+}
+.navigasi h1 {
+  text-align: center;
+}
+.navigasi img {
+  width: 200px;
+  height: 75px;
+}
+nav {
+  height: 400px;
+  border: 5px outset;
+}
+.headnav {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding-left: 5px;
+}
+.headnav img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+.nav {
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.nav span {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+.nav img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+.footer img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+footer span {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  padding-left: 5px;
+}
+.head-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid;
+  padding: 5px;
+}
+
+.head-container button img {
+  width: 16px;
+  height: 16px;
+}
+.profil {
+  display: flex;
+  align-items: center;
+  margin-left: 850px;
+  color: #f99d1c;
+}
+.profil img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+.content {
+  display: grid;
+  grid-template-areas:
+    "header header header"
+    "profil profil profil"
+    "data data data";
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.2fr 1fr 1fr;
+  background-color: #c9f6ff;
+  border: 2px inset;
+  padding-left: 15px;
+}
+
+.mainVideo {
+  background: #c9f6ff;
+}
+.headmain {
+  background: white;
+}
+.content h1 {
+  grid-area: header;
+  font-family: "Roboto", "sans-serif";
+  color: #f07e0b;
+  margin-left: 5px;
+}
+.profil-foto {
+  grid-area: profil;
+  background-color: #249bb3;
+}
+.profil-foto img {
+  width: 20%;
+}
+.profil-data {
+  grid-area: data;
+  display: flex;
+  font-size: 18px;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+  justify-content: center;
+  margin-right: 15px;
+}
+.profil-data td {
+  padding: 10px;
+  background: #249bb3;
+  border-radius: 15px;
+}
+.profil-data .data{
+  color: #fff;
+}
+.profil-data .edit{
+  background-color: #c9f6ff;
+}
+.profil-data input[type="submit"]{
+  width: 120px;
+  height: 30px;
+  background-color: #c9f6ff;
+  border-radius: 15px;
+  font-size: 18px;
+}
+.profil-data input[type="submit"]:hover{
+  background-color: #249bb3;
+}
+.profil-data input[type="text"]{
+  font-size: 18px;
+  color: #fff;
+  background-color: #249bb3;
+  border-bottom: none;
+  border-left:none;
+  border-right:none;
+  border-top:none;
+  font-family: "Roboto", "sans-serif"
+}
+.content span {
+  font-weight: bold;
+  font-family: "Roboto", "sans-serif";
+  color: #f07e0b;
+}
+.materiLogo {
+  width: 300px;
+  height: 300px;
+}
+
